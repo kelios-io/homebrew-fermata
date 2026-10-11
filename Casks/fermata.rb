@@ -8,7 +8,7 @@ cask "fermata" do
   homepage "https://fermata.run"
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: ">= :sequoia"
 
   app "Fermata.app"
 
@@ -22,7 +22,7 @@ cask "fermata" do
   ]
 
   caveats <<~EOS
-    Fermata requires macOS 26 Tahoe or later.
+    Fermata requires macOS 15 Sequoia or later.
 
     Fermata updates itself via Sparkle; `brew upgrade --cask fermata` is only
     needed when the Sparkle appcast is unavailable or for major version bumps.
