@@ -1,6 +1,6 @@
 cask "fermata" do
-  version "1.1.2"
-  sha256 "0881652556210b5a057792134ab22c76ab666d497327e2c03171b740672ca138"
+  version "1.2.0"
+  sha256 "3a6f7947837069fa484bc7c67985ee5e57ac8939cfc84b5f126537209db27f06"
 
   url "https://releases.fermata.run/Fermata-#{version}.dmg"
   name "Fermata"
